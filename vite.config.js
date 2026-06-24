@@ -11,7 +11,7 @@ export default defineConfig({
     port: 5173,
     proxy: {
       '/api': {
-        target: 'http://localhost:5036',
+        target: 'https://auth-api-nwev.onrender.com',
         changeOrigin: true,
       }
     }
